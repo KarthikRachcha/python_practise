@@ -1,3 +1,6 @@
-import mysql.connector
+names = ("jajh", "dhui","karthik")
 
-mydb = mysql.connector.connect()
+comps =("Dell","intel","MS")
+zipped=set(zip(names, comps))
+
+print(zipped)
